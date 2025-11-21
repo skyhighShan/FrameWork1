@@ -12,6 +12,7 @@ public class SocialService extends BaseClass {
 	HomeLandingPG hp;
 	@Test
 	public void SocialService() {
+		System.out.println("Social Service Start");
 		lp= new loginpage(driver);
 		hp= new HomeLandingPG(driver);
 		lp.enterlogin("admin", "pass123");

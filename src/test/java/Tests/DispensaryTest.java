@@ -24,7 +24,7 @@ public class DispensaryTest extends BaseClass {
 		hp= new HomeLandingPG(driver);
 		dp=new DispenssarySale(driver);
 		
-		
+		System.out.println("Despensary Start");
 		lp.enterlogin("admin", "pass123");
 		hp.VerifyHomePage();
 		hp.NavigateToDispensary();
