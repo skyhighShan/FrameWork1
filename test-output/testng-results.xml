@@ -1,39 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-21T22:50:57 IST" name="Suite" finished-at="2025-11-21T22:51:07 IST" duration-ms="9306">
+  <suite started-at="2025-11-22T10:55:43 IST" name="Suite" finished-at="2025-11-22T10:56:24 IST" duration-ms="40600">
     <groups>
     </groups>
-    <test started-at="2025-11-21T22:50:57 IST" name="Test" finished-at="2025-11-21T22:51:07 IST" duration-ms="9306">
+    <test started-at="2025-11-22T10:55:43 IST" name="ChromeTest" finished-at="2025-11-22T10:56:05 IST" duration-ms="22017">
       <class name="Tests.DispensaryTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.DispensaryTest@62ddbd7e]" started-at="2025-11-21T22:50:57 IST" name="setup" finished-at="2025-11-21T22:51:00 IST" duration-ms="2653" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Tests.DispensaryTest@3c9754d8]" started-at="2025-11-22T10:55:43 IST" name="setup" finished-at="2025-11-22T10:55:50 IST" duration-ms="7071" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="DispensaryTest()[pri:0, instance:Tests.DispensaryTest@62ddbd7e]" started-at="2025-11-21T22:51:00 IST" name="DispensaryTest" finished-at="2025-11-21T22:51:02 IST" duration-ms="2145" status="PASS">
+        <test-method signature="DispensaryTest()[pri:0, instance:Tests.DispensaryTest@3c9754d8]" started-at="2025-11-22T10:55:50 IST" name="DispensaryTest" finished-at="2025-11-22T10:55:56 IST" duration-ms="5632" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DispensaryTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.DispensaryTest@62ddbd7e]" started-at="2025-11-21T22:51:02 IST" name="teardown" finished-at="2025-11-21T22:51:03 IST" duration-ms="278" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.DispensaryTest@3c9754d8]" started-at="2025-11-22T10:55:56 IST" name="teardown" finished-at="2025-11-22T10:55:56 IST" duration-ms="364" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Tests.DispensaryTest -->
       <class name="Tests.SocialService">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.SocialService@3857f613]" started-at="2025-11-21T22:51:03 IST" name="setup" finished-at="2025-11-21T22:51:05 IST" duration-ms="1976" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Tests.SocialService@bcec361]" started-at="2025-11-22T10:55:56 IST" name="setup" finished-at="2025-11-22T10:56:00 IST" duration-ms="3730" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="SocialService()[pri:0, instance:Tests.SocialService@3857f613]" started-at="2025-11-21T22:51:05 IST" name="SocialService" finished-at="2025-11-21T22:51:07 IST" duration-ms="1964" status="PASS">
+        <test-method signature="SocialService()[pri:0, instance:Tests.SocialService@bcec361]" started-at="2025-11-22T10:56:00 IST" name="SocialService" finished-at="2025-11-22T10:56:04 IST" duration-ms="3936" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SocialService -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.SocialService@3857f613]" started-at="2025-11-21T22:51:07 IST" name="teardown" finished-at="2025-11-21T22:51:07 IST" duration-ms="228" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.SocialService@bcec361]" started-at="2025-11-22T10:56:04 IST" name="teardown" finished-at="2025-11-22T10:56:05 IST" duration-ms="1237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Tests.SocialService -->
-    </test> <!-- Test -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2025-11-22T10:55:43 IST" name="EdgeTest" finished-at="2025-11-22T10:56:07 IST" duration-ms="24028">
+      <class name="Tests.DispensaryTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Tests.DispensaryTest@7530ad9c]" started-at="2025-11-22T10:55:43 IST" name="setup" finished-at="2025-11-22T10:55:50 IST" duration-ms="6870" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="DispensaryTest()[pri:0, instance:Tests.DispensaryTest@7530ad9c]" started-at="2025-11-22T10:55:50 IST" name="DispensaryTest" finished-at="2025-11-22T10:55:55 IST" duration-ms="5520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DispensaryTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.DispensaryTest@7530ad9c]" started-at="2025-11-22T10:55:55 IST" name="teardown" finished-at="2025-11-22T10:55:56 IST" duration-ms="497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.DispensaryTest -->
+      <class name="Tests.SocialService">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Tests.SocialService@58a9760d]" started-at="2025-11-22T10:55:56 IST" name="setup" finished-at="2025-11-22T10:55:59 IST" duration-ms="3109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SocialService()[pri:0, instance:Tests.SocialService@58a9760d]" started-at="2025-11-22T10:55:59 IST" name="SocialService" finished-at="2025-11-22T10:56:06 IST" duration-ms="6925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SocialService -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.SocialService@58a9760d]" started-at="2025-11-22T10:56:06 IST" name="teardown" finished-at="2025-11-22T10:56:07 IST" duration-ms="983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.SocialService -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2025-11-22T10:55:43 IST" name="FireFoxTest" finished-at="2025-11-22T10:56:24 IST" duration-ms="40600">
+      <class name="Tests.DispensaryTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Tests.DispensaryTest@5fbe4146]" started-at="2025-11-22T10:55:43 IST" name="setup" finished-at="2025-11-22T10:56:05 IST" duration-ms="22491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="DispensaryTest()[pri:0, instance:Tests.DispensaryTest@5fbe4146]" started-at="2025-11-22T10:56:05 IST" name="DispensaryTest" finished-at="2025-11-22T10:56:12 IST" duration-ms="6858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DispensaryTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.DispensaryTest@5fbe4146]" started-at="2025-11-22T10:56:12 IST" name="teardown" finished-at="2025-11-22T10:56:14 IST" duration-ms="1725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.DispensaryTest -->
+      <class name="Tests.SocialService">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Tests.SocialService@1e66f1f5]" started-at="2025-11-22T10:56:14 IST" name="setup" finished-at="2025-11-22T10:56:19 IST" duration-ms="4996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SocialService()[pri:0, instance:Tests.SocialService@1e66f1f5]" started-at="2025-11-22T10:56:19 IST" name="SocialService" finished-at="2025-11-22T10:56:22 IST" duration-ms="2920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SocialService -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.SocialService@1e66f1f5]" started-at="2025-11-22T10:56:22 IST" name="teardown" finished-at="2025-11-22T10:56:24 IST" duration-ms="1563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.SocialService -->
+    </test> <!-- FireFoxTest -->
   </suite> <!-- Suite -->
 </testng-results>
